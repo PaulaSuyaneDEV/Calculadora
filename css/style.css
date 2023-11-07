@@ -20,7 +20,7 @@ body {
 .calculadora{
     background-color: #522B47;
     color: #FBF5F3;
-    padding: 25px;
+    padding: 25px ;
 }
 .calculadora h1 {
     text-transform: uppercase;
@@ -49,12 +49,16 @@ body {
     width: 126px;;
 }
 #result {
-     width: 260px;
-     background-color: #fbf5f3;
+     width: 250px;
+     background-color: #e8dce8;
      height: 40px;
      display: block;
      margin: auto;
      border-radius: 5px;
+     font-size: 30px;
+     text-align: right;
+     color: #522B47;
+     padding: 5px;
 }
 table {
     padding-top: 5px;
