@@ -50,14 +50,14 @@ body {
 }
 #result {
      width: 250px;
-     background-color: #e8dce8;
-     height: 40px;
      display: block;
      margin: auto;
+     background-color: #e8dce8;
+     height: 40px;
      border-radius: 5px;
      font-size: 30px;
-     text-align: right;
      color: #522B47;
+     text-align: right;
      padding: 5px;
 }
 table {

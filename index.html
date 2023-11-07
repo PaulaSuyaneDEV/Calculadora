@@ -14,11 +14,11 @@
              <p id="result"></p>
              <table>
                 <tr>
-                    <td><button class="btn">CE</button></td>
-                    <td><button class="btn">C</button></td>
-                    <td><button  class="btn">/</button></td>
+                    <td><button class="btn" onclick="limpar()">CE</button></td>
+                    <td><button class="btn" onclick="apagarDigito()">C</button></td>
+                    <td><button  class="btn" onclick="inserindoNumeros('/')">/</button></td>
                     <td><button 
-                    class="btn"> * </button></td>
+                    class="btn" onclick="inserindoNumeros('*')"> * </button></td>
 
                 </tr>
                 <tr>
@@ -26,25 +26,25 @@
                     <td><button class="btn" onclick="inserindoNumeros('8')">8</button></td>
                     <td><button class="btn" onclick="inserindoNumeros('9')">9</button></td>
                     <td><button 
-                    class="btn"> - </button></td>
+                    class="btn" onclick="inserindoNumeros('-')"> - </button></td>
 
                 </tr>
                 <tr>
                     <td><button class="btn" onclick="inserindoNumeros('4')">4</button></td>
                     <td><button class="btn" onclick="inserindoNumeros('5')">5</button></td>
                     <td><button class="btn" onclick="inserindoNumeros('6')">6</button></td>
-                    <td><button  class="btn"> + </button></td>
+                    <td><button  class="btn" onclick="inserindoNumeros('+')"> + </button></td>
                 </tr>
                 <tr>
                     <td><button class="btn" onclick="inserindoNumeros('1')">1</button></td>
                     <td><button class="btn" onclick="inserindoNumeros('2')">2</button></td>
                     <td><button class="btn" onclick="inserindoNumeros('3')">3</button></td>
-                    <td rowspan="2"><button class="btn igual"> = </button></td>
+                    <td rowspan="2"><button class="btn igual" onclick="calculo()" > = </button></td>
 
                 </tr>
                 <tr>
                     <td colspan="2"><button class="btn zero" onclick="inserindoNumeros('0')">0</button></td>
-                    <td><button class="btn">.</button></td>
+                    <td><button class="btn" onclick="inserindoNumeros('.')">.</button></td>
 
                 </tr>
              </table>
