@@ -4,7 +4,7 @@ document.getElementById("result").innerHTML =  num + numeros
 }
 
 function limpar(){
-    document.getElementById('result').innerHTML = ' '
+    document.getElementById('result').innerHTML = ''
 }
 
 function apagarDigito(){
